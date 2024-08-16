@@ -1,0 +1,23 @@
+# environments
+*venv
+venv*
+
+# IDE files
+.idea/*
+.vscode/*
+
+# byte-compiled
+__pycache__/
+
+# directory for temporary storage of files
+/tmp/
+
+# база данных
+lapa_db.sqlite3
+
+# media файлы
+
+/lapa_backend/media/
+
+# папка postman
+/postman/
