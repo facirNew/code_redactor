@@ -9,7 +9,7 @@ async def main():
                                               'port': 5434,
                                               'user': 'postgres',
                                               'password': 'postgres',
-                                              'database': 'compiler_test'},
+                                              'database': 'interpreter_test'},
                                  deletion_password='postgres',
                                  )
 
