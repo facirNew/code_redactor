@@ -71,7 +71,7 @@ async def run_code(ch: str, msg: str) -> None:
     shutil.rmtree(ch)
 
 
-async def main():
+async def main() -> None:
     for message in pubsub.listen():
         if message.get('type', None) == 'pmessage':
             await run_code(ch=message.get('channel').decode('utf-8'),

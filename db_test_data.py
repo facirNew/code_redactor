@@ -4,7 +4,11 @@ from asyncpg_lite import DatabaseManager
 from sqlalchemy import JSON, Integer, String, Text
 
 
-async def main():
+async def main() -> None:
+    """
+    Создание таблиц и заполнение базы тестовыми данными
+    """
+
     db_manager = DatabaseManager(auth_params={'host': 'localhost',
                                               'port': 5434,
                                               'user': 'postgres',
